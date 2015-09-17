@@ -128,6 +128,12 @@ public class EditorActivity extends ActionBarActivity {
          */
     }
 
+    //adding save method here
+    private void Save()
+    {
+        //something
+    }
+
     private void insertNote(String noteText) {
 
         ContentValues values = new ContentValues();
