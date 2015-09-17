@@ -121,6 +121,11 @@ public class EditorActivity extends ActionBarActivity {
         getContentResolver().update(NotesProvider.CONTENT_URI, values, noteFilter, null);
         Toast.makeText(this, R.string.note_updated, Toast.LENGTH_SHORT).show();
         setResult(RESULT_OK);
+        //new changes added
+        /*aadsfdlsafjlkajf
+        dfasdfasdfasdfsdf
+        adsfjasdfsdfasdf
+         */
     }
 
     private void insertNote(String noteText) {
@@ -136,5 +141,5 @@ public class EditorActivity extends ActionBarActivity {
         finishEditing();
     }
 
-    
+
 }
